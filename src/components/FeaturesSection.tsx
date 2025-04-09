@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Code, Desktop, Database, BarChart, Globe, Smartphone, Shield, Zap, Repeat } from 'lucide-react';
+import { Code, Monitor, Database, BarChart, Globe, Smartphone, Shield, Zap, Repeat } from 'lucide-react';
 
 const FeaturesSection: React.FC = () => {
   const features = [
@@ -11,7 +11,7 @@ const FeaturesSection: React.FC = () => {
       bgColor: "bg-mirai-600"
     },
     {
-      icon: <Desktop className="text-white" size={24} />,
+      icon: <Monitor className="text-white" size={24} />,
       title: "Web Application Development",
       description: "Responsive web apps with modern UI/UX for an exceptional user experience.",
       bgColor: "bg-mirai-500"

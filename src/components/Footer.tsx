@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Facebook, Twitter, Linkedin, Instagram, GitHub } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram, Github } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const year = new Date().getFullYear();
@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
     { icon: <Twitter size={20} />, href: "#", label: "Twitter" },
     { icon: <Linkedin size={20} />, href: "#", label: "LinkedIn" },
     { icon: <Instagram size={20} />, href: "#", label: "Instagram" },
-    { icon: <GitHub size={20} />, href: "#", label: "GitHub" }
+    { icon: <Github size={20} />, href: "#", label: "GitHub" }
   ];
   
   const links = [
